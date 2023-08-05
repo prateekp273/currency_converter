@@ -28,14 +28,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyCupertinoApp extends StatelessWidget {
-  const MyCupertinoApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const CupertinoApp(
-      debugShowCheckedModeBanner: false, // Remove debug banner
-      home: CurrencyConverterCupertinoPage(),
-    );
-  }
-}
+// class MyCupertinoApp extends StatelessWidget {
+//   const MyCupertinoApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return const CupertinoApp(
+//       debugShowCheckedModeBanner: false, // Remove debug banner
+//       home: CurrencyConverterCupertinoPage(),
+//     );
+//   }
+// }
